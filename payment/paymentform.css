@@ -1,0 +1,45 @@
+body{
+    background-color: black;
+}
+.wrapper{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 45px;
+    margin-right: 20px;
+    
+}
+.eticket{
+    border: 2px solid white;
+    padding:5px;
+    width:800px;
+    margin:20px 250px 0px 250px;
+    
+/*    height:550px;*/
+}
+.vacanza{
+    text-align: center;
+}
+.vacanza img{
+    width: 150px;
+    height: 48px;
+}
+section{
+    display:block;
+    width:100%;
+    margin: 15px;
+}
+h1{
+    position:relative; 
+    top:0;
+/*    bottom:0;*/
+/*    right:0;*/
+    left:0;
+    display: inline-block;
+    margin:1px 16px 1px 1px;
+}
+section img{
+    width:80px;
+    display: inline-block;
+    border-radius: 15px;
+    
+}

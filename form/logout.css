@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Audiowide|Averia+Serif+Libre|Days+One|Playball');
+@import url('https://fonts.googleapis.com/css?family=Sansita');
+body{
+   background: url(logoutBG.jpg) no-repeat center center fixed;
+   background-image opacity: 0.3;
+    background-size: cover;
+    text-align: center;
+    
+    
+    
+}
+
+h4{
+    font-size:30px;
+    color: azure;
+    padding-top: 150px;
+    padding: 20px;
+    font-family: 'russo', sans-serif;
+}
+ label{
+    font-size: 22px;
+    padding:10px;
+    
+}
+.comment{
+    margin-top:15px;
+}
+button {
+    background-color: rgba(27,71,110,0.98);
+    font-size: 16px;
+    color: white;
+    height: 35px;
+    margin: 8px;
+    border: none;
+    cursor: pointer;
+    width: 37%;
+    border-radius: 5px;
+}
+
+    
+   a{
+    background-color: rgba(27,71,110,0.98);
+    
+    color: white;
+    text-decoration: none;
+    margin: 8px;
+    cursor: pointer;
+    width: 57%;
+    border-radius: 5px;
+    font-family: 'russo', sans-serif;
+    font-size: 20px;
+       margin-bottom: 20px;
+    
+    
+    
+}
+
+

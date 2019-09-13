@@ -1,0 +1,89 @@
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+    display: block;
+}
+body {
+    background-color:darkgray; 
+    background-size: cover;
+    color:  rgba(27,71,110,0.98);
+    
+    font-family: 'Russo One', sans-serif;
+    font-size: 18px;
+    padding-left: 50px;
+    padding-bottom: 15px;
+}
+.insert{
+    padding: 50px;
+    margin-left: 80px;
+}
+
+
+.search{
+    display: inline-block;
+    padding: 50px;
+    margin-left: 80px;
+    
+}
+.showall{
+    display: inline;
+}
+td{
+    width: auto;
+    padding: 10px;
+    
+    
+}
+th{
+    text-align: center;
+padding: 15px;
+
+}
+tr{
+    text-align: center;
+padding: 15px;
+    width: auto;
+}
+
+button{
+    height: auto;
+    width: 100px;
+    border-radius: 4px;
+    color:  rgba(27,71,110,0.98);
+    
+}
+
+
+form input[name=airlines] {
+    text-align: center;
+    width: 20%px;
+    padding-bottom: 5px;
+}
+form input[name=duration] {
+    text-align: center;
+    width: 17.5%;
+    padding-bottom: 5px;
+}
+form input[name=d_time] {
+    text-align: center;
+    width: 12%;
+    padding-bottom: 5px;
+}
+form input[name=a_time] {
+    text-align: center;
+    width: 15%;
+    padding-bottom: 5px;
+}
+form input[name=from] {
+    text-align: center;
+    width: 20%;
+    padding-bottom: 5px;
+}
+form input[name=to] {
+    text-align: center;
+    width: 22%;
+    padding-bottom: 5px;
+}
+form button{
+    margin-top: 10px;
+    margin-left: 70px;
+}

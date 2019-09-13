@@ -1,0 +1,65 @@
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+    display: block;
+}
+body {
+    background-color:darkgray; 
+    background-size: cover;
+    color:  rgba(27,71,110,0.98);
+    
+    font-family: 'Russo One', sans-serif;
+    font-size: 18px;
+
+}
+
+
+
+.search{
+    display: inline-block;
+    
+    margin-left: 80px;
+    
+}
+.showall{
+    display: inline;
+}
+td{
+    width: auto;
+    
+    
+}
+th{
+    text-align: center;
+padding-bottom:5px;
+
+}
+tr{
+    text-align: center;
+padding: 5px;
+    width: auto;
+}
+
+form button{
+    height: 28px;
+    width: 100px;
+    border-radius: 4px;
+    color:  rgba(27,71,110,0.98);
+    margin-top: 5px;
+    
+}
+form {
+
+    margin-left: 80px;
+/*    text-align: center;*/
+}
+
+form input {
+
+    margin-left: 80px;
+    text-align: center;
+}
+a{
+    width:auto;
+    padding-left: 200px;
+        color:  rgba(27,71,110,0.98);
+}

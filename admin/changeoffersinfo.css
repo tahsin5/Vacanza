@@ -1,0 +1,23 @@
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+    display: block;
+}
+body {
+    background-color:darkgray; 
+    background-size: cover;
+    color:  rgba(27,71,110,0.98);
+    
+    font-family: 'Russo One', sans-serif;
+    font-size: 18px;
+  
+}
+
+
+button{
+    margin-top: 10px;
+    height: 28px;
+    width: 100px;
+    border-radius: 4px;
+    color:  rgba(27,71,110,0.98);
+    
+}

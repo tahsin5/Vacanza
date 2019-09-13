@@ -1,0 +1,47 @@
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+    display: block;
+}
+body {
+    background-color:darkgray; 
+    background-size: cover;
+    color:  rgba(27,71,110,0.98);
+    
+    padding: 50px;
+     font-family: 'Russo One', sans-serif;
+    font-size: 18px;
+    
+}
+.col-sm-4{
+    height:auto;
+    width: auto;
+     padding: 50px;
+    font-size: 25px;
+    
+    
+}
+
+.stats{
+    height:auto;
+    width: 100%;
+    color: black;
+}
+td {
+    padding-left: 100px;
+    margin-left: 40px;
+    text-align: left;
+    height: 20px;
+    width: 100px;
+    border-radius: 4px;
+    background color:  rgba(27,71,110,0.98);
+}
+button{
+    height: 28px;
+    width: 100px;
+    border-radius: 4px;
+    color:  rgba(27,71,110,0.98);
+    
+}
+form button{
+    margin-left: 90%;
+}

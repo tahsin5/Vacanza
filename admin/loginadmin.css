@@ -1,0 +1,99 @@
+
+@import url('https://fonts.googleapis.com/css?family=Audiowide|Averia+Serif+Libre|Days+One|Playball');
+body{
+ background: url(background.jpg) no-repeat center center fixed;
+    
+    background-size: cover;
+    text-align: center;
+    font-family: 'Russo One', sans-serif;
+    
+    
+}
+.login{
+    margin-top: 80px;
+    margin-bottom: 30px;
+    margin-left: 240px;
+    background-color: rgba(27,71,110,0.98);
+    border-radius:8%;
+    height: 100px;
+    width: 60%;
+}
+
+.login label{
+    font-size: 22px;
+    padding:10px;
+    
+}
+ button{
+     background-color: azure;
+    padding: 4px;
+    display: inline;
+    border: none;
+    font-size: 16px;
+     color: black;
+    cursor: pointer;
+    font-family: 'Russo One', sans-serif;
+    border-radius: 5px;
+    margin-top: 20px;
+     height: 28px;
+    
+   
+}
+span{
+    color: azure;
+}
+
+input{
+    margin-bottom: 5px;
+}
+input[type=date] {
+  
+  border-radius: 4px;
+width: 150px;
+  -webkit-appearance: none;
+}
+input[type=text] {
+  
+  border-radius: 4px;
+width: 150px;
+  -webkit-appearance: none;
+    height: 28px;
+}
+input[type=email] {
+  
+  border-radius: 4px;
+width: 150px;
+  -webkit-appearance: none;
+}
+input[type=radio] {
+  
+  border-radius: 4px;
+width: 80px;
+  
+}
+input[type=password] {
+  
+  border-radius: 4px;
+width: 150px;
+  -webkit-appearance: none;
+    height: 28px;
+}
+input[type=button] {
+  
+  border-radius: 4px;
+width: 150px;
+  -webkit-appearance: none;
+    height: 28px;
+}
+input[type=checkbox] {
+  
+  border-radius: 4px;
+width: 50px;
+  
+}
+.errormessage{
+    color: rgba(220,10,10,1);
+    font-size: 20px;
+    margin-left: 60px;
+    text-align: center;
+}

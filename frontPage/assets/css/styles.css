@@ -1,0 +1,168 @@
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+    display: block;
+}
+body {
+/*    background-color: rgba(26,3,49,1); */
+    
+    background: url(../images/background.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.navbar-custom{
+     background-color: rgba(27,71,110,0.98);
+     margin-bottom: 0px!important;
+     
+}
+.navbar-custom ul li:nth-child(4){
+    margin-right: 40px;
+}
+
+ul {
+    
+    font-family: 'Russo One', sans-serif;
+    font-size: 20px;
+    
+}
+
+li a {
+    color: azure;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.nav > li > a:hover, .nav > li > a:focus {
+  background-color: transparent;
+  text-decoration: none;
+   color: rgba(36,140,213,0.7);
+}
+
+.nav a:visited {
+    color: rgba(240,255,255,1);
+}
+
+
+.active {
+    color: rgba(36,142,213,0.8);
+}
+.searchsection{
+    background-color:rgba(26,3,49,1); 
+    height:920px;
+    margin-top:0px!important;
+    width:inherit;
+}
+.logo {
+
+    vertical-align: middle;
+    width: 120px;
+    height: 50px;
+    margin-left: 110px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#image{
+    background-image: url(background.jpg);
+    background-size: cover;
+    height: 920px;
+    overflow: hidden;
+    background-size: cover;
+    width: inherit;
+    background-repeat: round;
+    
+}
+.transbox1-custom{
+    
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 80px !important;;
+    margin-left: 70px;
+    height: 790px;
+    width: 88.4%;
+    overflow: hidden;
+    border-radius: 8px;
+    background-color: azure;
+    
+
+}
+.output-custom{
+    max-width:800px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    margin-left: 100px ;
+    overflow: hidden;
+    padding: 0px;
+    background-color: azure;
+    height:290px;
+}
+.output-custom .heading h1 {
+    text-align: left;
+    font-family: 'Russo One', sans-serif;
+    color:  rgba(47, 112,85, 1);
+    font-size: 25px;
+}
+
+.output-custom .ticketInfo {
+    text-align: left;
+    font-family: 'Russo One', sans-serif;
+    margin-right: 20px;
+    margin-top: 40px;
+    margin-bottom: 0px;
+    margin-left: 20px ;
+    font-size: 18px;
+}
+
+
+
+
+.footer-custom{
+    margin-right: 0;
+    margin-left: 0 ;
+    height: 60px;
+    width: 100%;
+    min-width: 100%;
+    overflow: hidden;
+    text-decoration: none;
+    text-align: left;
+    padding: 14px 16px;
+    border-radius: 3px;
+    color: azure;
+    background-color: rgba(27,71,110,0.98);
+    font-family: 'Russo One', sans-serif;
+    font-size: 20px;
+    padding-top: 15px;
+    margin-top: 0px;
+    margin-bottom: 2px;
+    
+    
+}
+
+.footer-custom a{
+    margin:15px;
+
+}
+
+.footer-custom a:hover{
+     background-color: transparent;
+  text-decoration: none;
+   color: rgba(36,140,213,0.7);
+}
+.footer-custom a:focus{
+     background-color: transparent;
+  text-decoration: none;
+   color: rgba(36,140,213,0.7);
+}
+/*
+.footer-custom > a:hover, .footer-custom > a:focus {
+  background-color: transparent;
+  text-decoration: none;
+   color: rgba(36,140,213,0.7);
+}
+*/
+
+.footer-custom a:visited {
+    color: rgba(240,255,255,1);
+}
+
+
